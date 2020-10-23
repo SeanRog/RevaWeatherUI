@@ -1,0 +1,11 @@
+<p>users works!</p>
+
+<table>
+    <th>City</th><th>State</th><th>Country</th><th>ZipCode</th>
+    <tr *ngFor="let location of locations"><td>{{ location.city }}</td><td>{{ location.state }}</td><td>{{ location.country }}</td><td>{{ location.locationZipCode }}</td></tr>
+</table>
+
+<ul>
+    <li *ngFor="let location of locations">{{ location.city }}</li>
+</ul>
+{{ locations }}
